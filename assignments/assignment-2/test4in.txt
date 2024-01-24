@@ -1,0 +1,25 @@
+:W 50
+Now we will test changes in the width.  This very first paragraph
+should be narrower than usual.  That's because I used a
+tag to set the width.  Isn't that fun?
+:W 35 :P
+This one is more narrow still, and also the start of a
+paragraph.  Of course, width can be changed apart from :W 70 starting
+a paragraph, sort of like this.  The width change should create
+   a line break without
+   any blank line.  That rule is mostly to simplify
+  interaction between width changes and the
+      line break logic.  Kind of odd to change the width mid-flow, really.
+:W 55 :B 2
+Of course, it can make more sense along with a blank line.  You
+should see two of them above here, and the lines are shorter now.
+I will blather on a bit, so there are more words to fill in
+this paragraph.  Then I will once again change the width again so
+the text is narrower.
+:P   :W 30
+This is not a very wide paragraph.  So it should
+generate a bunch of lines.
+Well, okay.  Maybe it's a small bunch.
+This is a paragraph and should be indented as usual.
+
+

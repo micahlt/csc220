@@ -1,0 +1,28 @@
+ This
+is the second test input.  It simply tests the operation of the
+    the paragraph tag by providing several paragraphs.  :P
+Each time the paragraph tag appears, your
+       program should complete the current line.
+     That means to issue a newline, but only if there are
+   already
+   some words        on the line.    The paragraph marker should never generate a blank line.  If it does, you are probably issuing
+   a newline when you should suppress it.
+:P
+This is a short paragraph.
+:P
+123456789012345 7890 234567890123456789012345678
+0123456 89012345678 0
+:P
+Here is another paragraph.  The previous one should be
+  fill one line, exactly 75
+characters wide
+including the indent, and there should be no blank line
+after it. None at all.  Not even a little one. :P
+ABCDEFGHIJKLMNOP RS
+UVWXYZabcdefghijk
+                    mnopq stuvwxyz0123456789 BCDEFGH
+IJKLMNOPQRSTUVWXY abcdefghijklmno qrstuvwxyz01
+  3456789ABCDEF
+  HIJKLMNOPQRSTU
+:P :P
+The above paragraph should fill exactly two lines, with no blank lines.

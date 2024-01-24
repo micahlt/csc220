@@ -1,0 +1,7 @@
+This is only a very basic test.  It makes sure that
+a simple input with no control words can be properly reformated.  It tests the basic operation of the
+    program, exercising the
+basic read/write loop that
+takes in  words
+  on input and fills lines to the proper output length.
+Use this to test the first version of you program.

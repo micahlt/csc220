@@ -1,0 +1,25 @@
+This third test is designed to exercise the blank line tag.  This
+first paragraph should be separated from the next one by a
+single blank line.
+:B 1 :P
+This paragraph should be separated from the last one by a single
+blank line, and its indent should be correct (usual five spaces).
+:P :B 2
+This paragraph should be separarated by two blank lines from the
+     one before it,
+  and should have the usual five-space indent.  It might be a
+  bit harder to get right because the blank
+  tag comes after the paragraph.  There are two kinds of problems
+     this could cause: You might manage to generate an extra
+     blank line if both tags try to finish the previous line.  It
+must be finished
+exactly once.  Or you might fumble the indent if you have
+   the paragraph tag actually print the spaces, or if the blank
+tag makes you forget about the indent.  Or you might miss the
+      blank tag entirely if you implement the indent by adding
+      space to the front of the new word.  (This can work, but
+      you have to check things in the right order.)
+:B 0
+This should begin at the left, with no blank line.
+:P Now, that was fun, wasn't it.  :B 8 No?  Well, just gotta
+get your nerd on.

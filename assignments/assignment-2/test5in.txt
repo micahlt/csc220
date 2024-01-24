@@ -1,0 +1,28 @@
+Now, I am going to try to break the program, by putting in
+some odd stuff.
+:P :P
+N
+\:P is not a paragraph marker. \This is not, either.  Nor is \\this.
+:W 5
+There is an instruction to \ keep the
+width
+at least 20.
+Did you follow it?  Whataboutawordwhichistoolong anyway?
+:W 30
+Can you handle it? :B -7
+       And, did you make sure not drop the negative blank line
+count ball?
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 1 2 three
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+123456789012345678901234567890
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+:B 2 :P :B 3
+Did you get five and an indent?  Did 'ya?
+:B 0 :B 0 :B 0
+Just a break, but no blank lines.
+:P :B 0 :B 1 :B 0
+Exactly one blank line now, and an indent.
+
