@@ -1,10 +1,12 @@
+#include "test.h"
 #include <iostream>
+#include <list>
+#include <string>
+#include <vector>
+
 using namespace std;
 
 int main() {
-  cout << "Enter your number: ";
-  int num = 0;
-  num >> cin;
-  cout << "Hello world, I'm Micah" << endl << endl;
-  return 0;
+  Test t;
+  cout << t.getVal() << endl;
 }

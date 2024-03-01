@@ -15,6 +15,7 @@ int main() {
   // Loop over each word in the inputted string
   while (cin >> word) {
     // Handle the paragraph flag
+
     if (word == ":P") {
       // Set handler variable for next iteration of the loop
       handleNewParagraph = true;
@@ -62,6 +63,7 @@ int main() {
         // If the characther is just a backslash then skip it
         if (word.length() == 0) {
           continue;
+
         }
       }
       // Print word and a space
