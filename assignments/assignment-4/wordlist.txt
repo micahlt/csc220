@@ -1,0 +1,5 @@
+PN: Phil Mike Joe Sam Sue Alice Mary Lisa
+PASS: gave handed transmitted
+TOSS: threw pitched tossed lobbed
+OBJ: hammer rock watch flower document :
+@fn=PN @fn @PASS the @OBJ to @PN , who @TOSS it back at @fn .
